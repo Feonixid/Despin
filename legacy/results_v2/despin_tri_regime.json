@@ -1,0 +1,420 @@
+{
+  "accuracy": 65.0,
+  "avg_tokens": 1004.25,
+  "avg_latency": 20.70208488702774,
+  "tes": 64.72491909385113,
+  "records": [
+    {
+      "problem_id": "math500_0",
+      "correct": false,
+      "pred": "\\left(3\\dfrac{\\pi{2\\right)",
+      "tokens": 921,
+      "pruned": 63,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 18.942445516586304,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 108,
+          "rewound_to": 89,
+          "tokens_pruned": 19,
+          "reason": "Velocity collapse: v=0.1505",
+          "slice_overhead_ms": 0.1308999489992857
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 157,
+          "rewound_to": 113,
+          "tokens_pruned": 44,
+          "reason": "Velocity collapse: v=0.0416",
+          "slice_overhead_ms": 0.13240007683634758
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_1",
+      "correct": true,
+      "pred": "p-q",
+      "tokens": 2048,
+      "pruned": 143,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 44.90300536155701,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 166,
+          "rewound_to": 54,
+          "tokens_pruned": 112,
+          "reason": "Recurrence: Step 6 ~ Step 3 (sim=0.908)",
+          "slice_overhead_ms": 0.12740003876388073
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 104,
+          "rewound_to": 73,
+          "tokens_pruned": 31,
+          "reason": "Velocity collapse: v=0.1295",
+          "slice_overhead_ms": 0.13109995052218437
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_2",
+      "correct": true,
+      "pred": "14/3",
+      "tokens": 1293,
+      "pruned": 63,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 26.219655752182007,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 107,
+          "rewound_to": 81,
+          "tokens_pruned": 26,
+          "reason": "Velocity collapse: v=0.0637",
+          "slice_overhead_ms": 0.13010005932301283
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 187,
+          "rewound_to": 150,
+          "tokens_pruned": 37,
+          "reason": "Velocity collapse: v=0.1530",
+          "slice_overhead_ms": 0.12939993757754564
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_3",
+      "correct": true,
+      "pred": "9",
+      "tokens": 1593,
+      "pruned": 81,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 32.6256320476532,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 98,
+          "rewound_to": 55,
+          "tokens_pruned": 43,
+          "reason": "Velocity collapse: v=0.0337",
+          "slice_overhead_ms": 0.125400023534894
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 158,
+          "rewound_to": 120,
+          "tokens_pruned": 38,
+          "reason": "Velocity collapse: v=0.0767",
+          "slice_overhead_ms": 0.11580006685107946
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_4",
+      "correct": false,
+      "pred": null,
+      "tokens": 2048,
+      "pruned": 95,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 45.180970430374146,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 93,
+          "rewound_to": 68,
+          "tokens_pruned": 25,
+          "reason": "Velocity collapse: v=0.0586",
+          "slice_overhead_ms": 0.12729992158710957
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 151,
+          "rewound_to": 81,
+          "tokens_pruned": 70,
+          "reason": "Recurrence: Step 12 ~ Step 5 (sim=0.911)",
+          "slice_overhead_ms": 0.1265000319108367
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_5",
+      "correct": true,
+      "pred": "42",
+      "tokens": 919,
+      "pruned": 200,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 20.84738039970398,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 202,
+          "rewound_to": 102,
+          "tokens_pruned": 100,
+          "reason": "Recurrence: Step 10 ~ Step 5 (sim=0.904)",
+          "slice_overhead_ms": 0.16659998800605536
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 202,
+          "rewound_to": 102,
+          "tokens_pruned": 100,
+          "reason": "Recurrence: Step 10 ~ Step 5 (sim=0.904)",
+          "slice_overhead_ms": 0.13940001372247934
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_6",
+      "correct": true,
+      "pred": "27",
+      "tokens": 1876,
+      "pruned": 91,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback",
+        "pgec_early_closure"
+      ],
+      "latency_s": 39.155733823776245,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 109,
+          "rewound_to": 50,
+          "tokens_pruned": 59,
+          "reason": "Velocity collapse: v=0.1346",
+          "slice_overhead_ms": 0.12770004104822874
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 174,
+          "rewound_to": 142,
+          "tokens_pruned": 32,
+          "reason": "Velocity collapse: v=0.1128",
+          "slice_overhead_ms": 0.12530002277344465
+        },
+        {
+          "type": "pgec_early_closure",
+          "at_token": 1876,
+          "reason": "Post-Solution Loop: Recurrence: Step 88 ~ Step 85 (sim=0.924) (Boxed=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_7",
+      "correct": true,
+      "pred": "90",
+      "tokens": 2048,
+      "pruned": 72,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 42.88096904754639,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 140,
+          "rewound_to": 106,
+          "tokens_pruned": 34,
+          "reason": "Velocity collapse: v=0.1102",
+          "slice_overhead_ms": 0.13679999392479658
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 160,
+          "rewound_to": 122,
+          "tokens_pruned": 38,
+          "reason": "Velocity collapse: v=0.1019",
+          "slice_overhead_ms": 0.11740007903426886
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_8",
+      "correct": true,
+      "pred": "3\\sqrt{13",
+      "tokens": 1046,
+      "pruned": 81,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback",
+        "pgec_early_closure"
+      ],
+      "latency_s": 21.30325961112976,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 118,
+          "rewound_to": 69,
+          "tokens_pruned": 49,
+          "reason": "Velocity collapse: v=0.1739",
+          "slice_overhead_ms": 0.1230000052601099
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 110,
+          "rewound_to": 78,
+          "tokens_pruned": 32,
+          "reason": "Velocity collapse: v=0.1470",
+          "slice_overhead_ms": 0.12450001668184996
+        },
+        {
+          "type": "pgec_early_closure",
+          "at_token": 1046,
+          "reason": "Post-Solution Loop: Recurrence: Step 58 ~ Step 55 (sim=0.952) (Boxed=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_9",
+      "correct": false,
+      "pred": "2",
+      "tokens": 2048,
+      "pruned": 104,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 44.0976881980896,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 104,
+          "rewound_to": 48,
+          "tokens_pruned": 56,
+          "reason": "Velocity collapse: v=0.1381",
+          "slice_overhead_ms": 0.12820004485547543
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 135,
+          "rewound_to": 87,
+          "tokens_pruned": 48,
+          "reason": "Velocity collapse: v=0.0769",
+          "slice_overhead_ms": 0.1330000814050436
+        }
+      ]
+    },
+    {
+      "problem_id": "gsm8k_0",
+      "correct": true,
+      "pred": "18",
+      "tokens": 448,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 8.212547779083252,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_1",
+      "correct": true,
+      "pred": "3",
+      "tokens": 279,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 5.085717439651489,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_2",
+      "correct": false,
+      "pred": "195000",
+      "tokens": 517,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 9.474283933639526,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_3",
+      "correct": false,
+      "pred": "180",
+      "tokens": 218,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 3.9675440788269043,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_4",
+      "correct": true,
+      "pred": "20",
+      "tokens": 421,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 7.744386911392212,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_5",
+      "correct": true,
+      "pred": "64",
+      "tokens": 280,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 5.098878622055054,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_6",
+      "correct": true,
+      "pred": "260",
+      "tokens": 423,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 7.719118118286133,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_7",
+      "correct": false,
+      "pred": "100%",
+      "tokens": 639,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 11.799587726593018,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_8",
+      "correct": false,
+      "pred": "125",
+      "tokens": 616,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 11.3816397190094,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_9",
+      "correct": true,
+      "pred": "460",
+      "tokens": 404,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 7.4012532234191895,
+      "rollback_history": []
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "DESPIN: rollback and deflation for reasoning loops, and a re-analysis of its first evaluation"
+type: software
+authors:
+  - family-names: "Shabani"
+    given-names: "Laerti"
+repository-code: "https://github.com/Feonixid/DESPIN-Reasoning"
+date-released: "2026-11-09"

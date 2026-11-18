@@ -1,0 +1,188 @@
+{
+  "accuracy": 65.0,
+  "avg_tokens": 1144.25,
+  "avg_latency": 24.57036820650101,
+  "tes": 56.80576797028621,
+  "records": [
+    {
+      "problem_id": "math500_0",
+      "correct": false,
+      "pred": "\\left(3\\dfrac{\\pi{2\\right)",
+      "tokens": 991,
+      "pruned": 70,
+      "rollbacks": 2,
+      "latency_s": 18.893033266067505
+    },
+    {
+      "problem_id": "math500_1",
+      "correct": true,
+      "pred": "p-q",
+      "tokens": 2183,
+      "pruned": 135,
+      "rollbacks": 2,
+      "latency_s": 45.78219199180603
+    },
+    {
+      "problem_id": "math500_2",
+      "correct": true,
+      "pred": "14/3",
+      "tokens": 1356,
+      "pruned": 63,
+      "rollbacks": 2,
+      "latency_s": 28.835158586502075
+    },
+    {
+      "problem_id": "math500_3",
+      "correct": true,
+      "pred": "9",
+      "tokens": 1674,
+      "pruned": 81,
+      "rollbacks": 2,
+      "latency_s": 35.785836935043335
+    },
+    {
+      "problem_id": "math500_4",
+      "correct": false,
+      "pred": null,
+      "tokens": 2143,
+      "pruned": 95,
+      "rollbacks": 2,
+      "latency_s": 47.468092918395996
+    },
+    {
+      "problem_id": "math500_5",
+      "correct": true,
+      "pred": "42",
+      "tokens": 1062,
+      "pruned": 143,
+      "rollbacks": 2,
+      "latency_s": 22.769245862960815
+    },
+    {
+      "problem_id": "math500_6",
+      "correct": true,
+      "pred": "27",
+      "tokens": 2086,
+      "pruned": 91,
+      "rollbacks": 2,
+      "latency_s": 45.325422048568726
+    },
+    {
+      "problem_id": "math500_7",
+      "correct": true,
+      "pred": "90",
+      "tokens": 2154,
+      "pruned": 106,
+      "rollbacks": 2,
+      "latency_s": 46.990742683410645
+    },
+    {
+      "problem_id": "math500_8",
+      "correct": true,
+      "pred": "3\\sqrt{13",
+      "tokens": 1165,
+      "pruned": 44,
+      "rollbacks": 2,
+      "latency_s": 25.058844566345215
+    },
+    {
+      "problem_id": "math500_9",
+      "correct": false,
+      "pred": "2",
+      "tokens": 2152,
+      "pruned": 104,
+      "rollbacks": 2,
+      "latency_s": 46.94745087623596
+    },
+    {
+      "problem_id": "gsm8k_0",
+      "correct": true,
+      "pred": "18",
+      "tokens": 644,
+      "pruned": 196,
+      "rollbacks": 2,
+      "latency_s": 13.780320644378662
+    },
+    {
+      "problem_id": "gsm8k_1",
+      "correct": true,
+      "pred": "3",
+      "tokens": 279,
+      "pruned": 0,
+      "rollbacks": 0,
+      "latency_s": 5.943594694137573
+    },
+    {
+      "problem_id": "gsm8k_2",
+      "correct": false,
+      "pred": "195000",
+      "tokens": 861,
+      "pruned": 344,
+      "rollbacks": 2,
+      "latency_s": 17.919899225234985
+    },
+    {
+      "problem_id": "gsm8k_3",
+      "correct": false,
+      "pred": "180",
+      "tokens": 218,
+      "pruned": 0,
+      "rollbacks": 0,
+      "latency_s": 4.531269550323486
+    },
+    {
+      "problem_id": "gsm8k_4",
+      "correct": true,
+      "pred": "20",
+      "tokens": 637,
+      "pruned": 216,
+      "rollbacks": 2,
+      "latency_s": 13.864421606063843
+    },
+    {
+      "problem_id": "gsm8k_5",
+      "correct": true,
+      "pred": "64",
+      "tokens": 280,
+      "pruned": 0,
+      "rollbacks": 0,
+      "latency_s": 6.046748638153076
+    },
+    {
+      "problem_id": "gsm8k_6",
+      "correct": true,
+      "pred": "260",
+      "tokens": 667,
+      "pruned": 244,
+      "rollbacks": 2,
+      "latency_s": 14.532723188400269
+    },
+    {
+      "problem_id": "gsm8k_7",
+      "correct": false,
+      "pred": "100%",
+      "tokens": 835,
+      "pruned": 196,
+      "rollbacks": 2,
+      "latency_s": 18.15458345413208
+    },
+    {
+      "problem_id": "gsm8k_8",
+      "correct": false,
+      "pred": "125",
+      "tokens": 884,
+      "pruned": 268,
+      "rollbacks": 2,
+      "latency_s": 19.250054836273193
+    },
+    {
+      "problem_id": "gsm8k_9",
+      "correct": true,
+      "pred": "460",
+      "tokens": 614,
+      "pruned": 210,
+      "rollbacks": 2,
+      "latency_s": 13.52772855758667
+    }
+  ]
+}

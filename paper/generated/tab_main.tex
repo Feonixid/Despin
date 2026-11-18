@@ -1,0 +1,12 @@
+% AUTO-GENERATED
+\begin{tabular}{lcccccccc}
+\toprule
+Method & MATH & GSM8K & Overall & 95\% CI & Final & Total & Tok/corr. & $p$ vs greedy \\
+\midrule
+Greedy ($T{=}0$) & 14/30 & 22/30 & 36/60 (60.0\%) & [47.4, 71.4] & 1,148 & 1,148 & 1,914 & -- \\
+Temperature sampling ($T{=}0.6$) & 13/30 & 24/30 & 37/60 (61.7\%) & [49.0, 72.9] & 1,195 & 1,195 & 1,938 & 1.000 \\
+Repetition penalty ($\theta{=}1.15$) & 15/30 & 19/30 & 34/60 (56.7\%) & [44.1, 68.4] & 1,199 & 1,199 & 2,116 & 0.754 \\
+Detector-triggered early exit & 2/30 & 5/30 & 7/60 (11.7\%) & [5.8, 22.2] & 229 & 229 & 1,961 & $<$0.001 \\
+DESPIN (as implemented) & 18/30 & 22/30 & 40/60 (66.7\%) & [54.1, 77.3] & 1,120 & 1,189 & 1,783 & 0.125 \\
+\bottomrule
+\end{tabular}

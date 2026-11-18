@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# LaTeX build products (keep .bbl for arXiv submission)
+*.aux
+*.log
+*.out
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Flagged legacy figures (hard-coded numbers / mislabelled traces); kept locally, not published
+legacy/figures_v1/
+legacy/figures_v2/
+
+# Withdrawn first paper and early exploratory results: kept locally, not published
+legacy/paper_v1/
+legacy/results_v1/
+
+# Local helpers and unused files: kept locally, not published
+publish_to_github.bat
+paper/references.bib
+results/smoke.jsonl
+
+# Model weights / caches
+*.safetensors
+*.bin
+*.pt
+.cache/

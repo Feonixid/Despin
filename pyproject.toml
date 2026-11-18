@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "despin"
+version = "0.2.0"
+description = "DESPIN: recurrence detection, KV-cache rollback and logit deflation for reasoning loops, with the audit of its first evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "transformers>=4.45", "accelerate>=0.30", "numpy>=1.26", "scipy>=1.11", "sympy>=1.12"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

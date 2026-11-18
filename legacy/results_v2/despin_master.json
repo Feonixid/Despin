@@ -1,0 +1,231 @@
+{
+  "accuracy": 60.0,
+  "avg_tokens": 1119.2,
+  "avg_latency": 24.76269644498825,
+  "tes": 53.60972122944961,
+  "records": [
+    {
+      "problem_id": "math500_0",
+      "correct": false,
+      "pred": "\\left(3\\dfrac{\\pi{2\\right)",
+      "tokens": 984,
+      "pruned": 63,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 22.206390142440796
+    },
+    {
+      "problem_id": "math500_1",
+      "correct": false,
+      "pred": "S=sum_{n=2^\\infty(n-1)/n^3",
+      "tokens": 2344,
+      "pruned": 296,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 52.565873861312866
+    },
+    {
+      "problem_id": "math500_2",
+      "correct": true,
+      "pred": "14/3",
+      "tokens": 1356,
+      "pruned": 63,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 29.953811645507812
+    },
+    {
+      "problem_id": "math500_3",
+      "correct": true,
+      "pred": "9",
+      "tokens": 1674,
+      "pruned": 81,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 37.11551332473755
+    },
+    {
+      "problem_id": "math500_4",
+      "correct": false,
+      "pred": "averagespeedis(y2-y1)/(x2-x1)",
+      "tokens": 2125,
+      "pruned": 77,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 48.929309368133545
+    },
+    {
+      "problem_id": "math500_5",
+      "correct": true,
+      "pred": "42",
+      "tokens": 1119,
+      "pruned": 200,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 24.965986490249634
+    },
+    {
+      "problem_id": "math500_6",
+      "correct": true,
+      "pred": "27",
+      "tokens": 2086,
+      "pruned": 91,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 47.22152066230774
+    },
+    {
+      "problem_id": "math500_7",
+      "correct": true,
+      "pred": "90",
+      "tokens": 2120,
+      "pruned": 72,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 44.42172074317932
+    },
+    {
+      "problem_id": "math500_8",
+      "correct": true,
+      "pred": "3\\sqrt{13",
+      "tokens": 1127,
+      "pruned": 81,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback",
+        "pgec_early_closure"
+      ],
+      "latency_s": 24.306374073028564
+    },
+    {
+      "problem_id": "math500_9",
+      "correct": false,
+      "pred": "2",
+      "tokens": 2152,
+      "pruned": 104,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 47.51222801208496
+    },
+    {
+      "problem_id": "gsm8k_0",
+      "correct": true,
+      "pred": "18",
+      "tokens": 448,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 9.62087869644165
+    },
+    {
+      "problem_id": "gsm8k_1",
+      "correct": true,
+      "pred": "3",
+      "tokens": 279,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 6.181191921234131
+    },
+    {
+      "problem_id": "gsm8k_2",
+      "correct": false,
+      "pred": "195000",
+      "tokens": 861,
+      "pruned": 344,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 19.169659852981567
+    },
+    {
+      "problem_id": "gsm8k_3",
+      "correct": false,
+      "pred": "180",
+      "tokens": 218,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 4.877983093261719
+    },
+    {
+      "problem_id": "gsm8k_4",
+      "correct": true,
+      "pred": "20",
+      "tokens": 421,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 9.23446798324585
+    },
+    {
+      "problem_id": "gsm8k_5",
+      "correct": true,
+      "pred": "64",
+      "tokens": 280,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 6.049220323562622
+    },
+    {
+      "problem_id": "gsm8k_6",
+      "correct": true,
+      "pred": "260",
+      "tokens": 667,
+      "pruned": 244,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 14.530869960784912
+    },
+    {
+      "problem_id": "gsm8k_7",
+      "correct": false,
+      "pred": "100%",
+      "tokens": 835,
+      "pruned": 196,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 18.17308235168457
+    },
+    {
+      "problem_id": "gsm8k_8",
+      "correct": false,
+      "pred": "125",
+      "tokens": 884,
+      "pruned": 268,
+      "actions": [
+        "gram_schmidt_asd_rollback",
+        "gram_schmidt_asd_rollback"
+      ],
+      "latency_s": 19.446815967559814
+    },
+    {
+      "problem_id": "gsm8k_9",
+      "correct": true,
+      "pred": "460",
+      "tokens": 404,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 8.77103042602539
+    }
+  ]
+}

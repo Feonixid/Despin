@@ -1,0 +1,476 @@
+{
+  "accuracy": 50.0,
+  "avg_tokens": 975.0,
+  "avg_latency": 21.18883373737335,
+  "tes": 51.282051282051285,
+  "records": [
+    {
+      "problem_id": "math500_0",
+      "correct": false,
+      "pred": "\\left(3\\dfrac{\\pi{2\\right)",
+      "tokens": 921,
+      "pruned": 63,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 22.484622955322266,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 108,
+          "rewound_to": 89,
+          "tokens_pruned": 19,
+          "reason": "Velocity collapse: v=0.1505",
+          "slice_overhead_ms": 0.22289995104074478
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 157,
+          "rewound_to": 113,
+          "tokens_pruned": 44,
+          "reason": "Velocity collapse: v=0.0416",
+          "slice_overhead_ms": 0.1946000847965479
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_1",
+      "correct": true,
+      "pred": "p-q",
+      "tokens": 2048,
+      "pruned": 143,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 50.42284369468689,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 166,
+          "rewound_to": 54,
+          "tokens_pruned": 112,
+          "reason": "Recurrence: Step 6 ~ Step 3 (sim=0.908)",
+          "slice_overhead_ms": 0.19419996533542871
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 104,
+          "rewound_to": 73,
+          "tokens_pruned": 31,
+          "reason": "Velocity collapse: v=0.1295",
+          "slice_overhead_ms": 0.19040005281567574
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_2",
+      "correct": true,
+      "pred": "14/3",
+      "tokens": 1293,
+      "pruned": 63,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 30.000975608825684,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 107,
+          "rewound_to": 81,
+          "tokens_pruned": 26,
+          "reason": "Velocity collapse: v=0.0637",
+          "slice_overhead_ms": 0.18969993107020855
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 187,
+          "rewound_to": 150,
+          "tokens_pruned": 37,
+          "reason": "Velocity collapse: v=0.1530",
+          "slice_overhead_ms": 0.188700039871037
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_3",
+      "correct": true,
+      "pred": "9",
+      "tokens": 1593,
+      "pruned": 81,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 37.12773013114929,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 98,
+          "rewound_to": 55,
+          "tokens_pruned": 43,
+          "reason": "Velocity collapse: v=0.0337",
+          "slice_overhead_ms": 0.19390007946640253
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 158,
+          "rewound_to": 120,
+          "tokens_pruned": 38,
+          "reason": "Velocity collapse: v=0.0767",
+          "slice_overhead_ms": 0.20030001178383827
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_4",
+      "correct": false,
+      "pred": null,
+      "tokens": 2048,
+      "pruned": 95,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 47.862425327301025,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 93,
+          "rewound_to": 68,
+          "tokens_pruned": 25,
+          "reason": "Velocity collapse: v=0.0586",
+          "slice_overhead_ms": 0.19400008022785187
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 151,
+          "rewound_to": 81,
+          "tokens_pruned": 70,
+          "reason": "Recurrence: Step 12 ~ Step 5 (sim=0.911)",
+          "slice_overhead_ms": 0.202300027012825
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_5",
+      "correct": true,
+      "pred": "42",
+      "tokens": 919,
+      "pruned": 200,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 20.8032169342041,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 202,
+          "rewound_to": 102,
+          "tokens_pruned": 100,
+          "reason": "Recurrence: Step 10 ~ Step 5 (sim=0.904)",
+          "slice_overhead_ms": 0.12089998926967382
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 202,
+          "rewound_to": 102,
+          "tokens_pruned": 100,
+          "reason": "Recurrence: Step 10 ~ Step 5 (sim=0.904)",
+          "slice_overhead_ms": 0.12410001363605261
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_6",
+      "correct": true,
+      "pred": "27",
+      "tokens": 1876,
+      "pruned": 91,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback",
+        "pgec_early_closure"
+      ],
+      "latency_s": 39.351465463638306,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 109,
+          "rewound_to": 50,
+          "tokens_pruned": 59,
+          "reason": "Velocity collapse: v=0.1346",
+          "slice_overhead_ms": 0.1357999863103032
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 174,
+          "rewound_to": 142,
+          "tokens_pruned": 32,
+          "reason": "Velocity collapse: v=0.1128",
+          "slice_overhead_ms": 0.1306000631302595
+        },
+        {
+          "type": "pgec_early_closure",
+          "at_token": 1876,
+          "reason": "Recurrence: Step 88 ~ Step 85 (sim=0.924) (ClosedThink=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_7",
+      "correct": true,
+      "pred": "90",
+      "tokens": 2048,
+      "pruned": 72,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 43.14479374885559,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 140,
+          "rewound_to": 106,
+          "tokens_pruned": 34,
+          "reason": "Velocity collapse: v=0.1102",
+          "slice_overhead_ms": 0.12719992082566023
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 160,
+          "rewound_to": 122,
+          "tokens_pruned": 38,
+          "reason": "Velocity collapse: v=0.1019",
+          "slice_overhead_ms": 0.12290000449866056
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_8",
+      "correct": true,
+      "pred": "3\\sqrt{13",
+      "tokens": 1046,
+      "pruned": 81,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback",
+        "pgec_early_closure"
+      ],
+      "latency_s": 21.271395683288574,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 118,
+          "rewound_to": 69,
+          "tokens_pruned": 49,
+          "reason": "Velocity collapse: v=0.1739",
+          "slice_overhead_ms": 0.15460001304745674
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 110,
+          "rewound_to": 78,
+          "tokens_pruned": 32,
+          "reason": "Velocity collapse: v=0.1470",
+          "slice_overhead_ms": 0.13299996498972178
+        },
+        {
+          "type": "pgec_early_closure",
+          "at_token": 1046,
+          "reason": "Recurrence: Step 58 ~ Step 55 (sim=0.952) (ClosedThink=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "math500_9",
+      "correct": false,
+      "pred": "2",
+      "tokens": 2048,
+      "pruned": 104,
+      "actions": [
+        "asd_rollback",
+        "asd_rollback"
+      ],
+      "latency_s": 44.13600707054138,
+      "rollback_history": [
+        {
+          "type": "asd_rollback",
+          "at_token": 104,
+          "rewound_to": 48,
+          "tokens_pruned": 56,
+          "reason": "Velocity collapse: v=0.1381",
+          "slice_overhead_ms": 0.130399945192039
+        },
+        {
+          "type": "asd_rollback",
+          "at_token": 135,
+          "rewound_to": 87,
+          "tokens_pruned": 48,
+          "reason": "Velocity collapse: v=0.0769",
+          "slice_overhead_ms": 0.12509990483522415
+        }
+      ]
+    },
+    {
+      "problem_id": "gsm8k_0",
+      "correct": false,
+      "pred": "5",
+      "tokens": 350,
+      "pruned": 0,
+      "actions": [
+        "pgec_early_closure"
+      ],
+      "latency_s": 6.3941168785095215,
+      "rollback_history": [
+        {
+          "type": "pgec_early_closure",
+          "at_token": 350,
+          "reason": "Recurrence: Step 17 ~ Step 13 (sim=0.913) (ClosedThink=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "gsm8k_1",
+      "correct": true,
+      "pred": "3",
+      "tokens": 279,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 5.058826446533203,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_2",
+      "correct": false,
+      "pred": null,
+      "tokens": 453,
+      "pruned": 0,
+      "actions": [
+        "pgec_early_closure"
+      ],
+      "latency_s": 8.296000003814697,
+      "rollback_history": [
+        {
+          "type": "pgec_early_closure",
+          "at_token": 453,
+          "reason": "Recurrence: Step 19 ~ Step 15 (sim=0.908) (ClosedThink=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "gsm8k_3",
+      "correct": false,
+      "pred": "180",
+      "tokens": 218,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 3.9633774757385254,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_4",
+      "correct": false,
+      "pred": "60",
+      "tokens": 402,
+      "pruned": 0,
+      "actions": [
+        "pgec_early_closure"
+      ],
+      "latency_s": 7.39289402961731,
+      "rollback_history": [
+        {
+          "type": "pgec_early_closure",
+          "at_token": 402,
+          "reason": "Recurrence: Step 17 ~ Step 14 (sim=0.906) (ClosedThink=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "gsm8k_5",
+      "correct": true,
+      "pred": "64",
+      "tokens": 280,
+      "pruned": 0,
+      "actions": [],
+      "latency_s": 5.098912715911865,
+      "rollback_history": []
+    },
+    {
+      "problem_id": "gsm8k_6",
+      "correct": true,
+      "pred": "260",
+      "tokens": 403,
+      "pruned": 0,
+      "actions": [
+        "pgec_early_closure"
+      ],
+      "latency_s": 7.38844633102417,
+      "rollback_history": [
+        {
+          "type": "pgec_early_closure",
+          "at_token": 403,
+          "reason": "Recurrence: Step 17 ~ Step 14 (sim=0.941) (ClosedThink=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "gsm8k_7",
+      "correct": false,
+      "pred": "2restartsmultipliedby20minutesperrestarttotaling40minutes",
+      "tokens": 494,
+      "pruned": 0,
+      "actions": [
+        "pgec_early_closure"
+      ],
+      "latency_s": 9.127250671386719,
+      "rollback_history": [
+        {
+          "type": "pgec_early_closure",
+          "at_token": 494,
+          "reason": "Recurrence: Step 24 ~ Step 21 (sim=0.941) (ClosedThink=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "gsm8k_8",
+      "correct": false,
+      "pred": "hisfinaldistancefromhomeis:",
+      "tokens": 598,
+      "pruned": 0,
+      "actions": [
+        "pgec_early_closure"
+      ],
+      "latency_s": 11.103350639343262,
+      "rollback_history": [
+        {
+          "type": "pgec_early_closure",
+          "at_token": 598,
+          "reason": "Recurrence: Step 28 ~ Step 24 (sim=0.920) (ClosedThink=True)"
+        }
+      ]
+    },
+    {
+      "problem_id": "gsm8k_9",
+      "correct": false,
+      "pred": "10",
+      "tokens": 183,
+      "pruned": 0,
+      "actions": [
+        "pgec_early_closure"
+      ],
+      "latency_s": 3.348022937774658,
+      "rollback_history": [
+        {
+          "type": "pgec_early_closure",
+          "at_token": 183,
+          "reason": "Recurrence: Step 10 ~ Step 4 (sim=0.924) (ClosedThink=True)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "summary": [
+    {
+      "Method": "Greedy (T=0.0)",
+      "Accuracy (%)": 60.0,
+      "Avg Tokens": 1021.2,
+      "Avg Latency (s)": 20.9,
+      "Token Efficiency Score (TES)": 58.75
+    },
+    {
+      "Method": "Sampling (T=0.6)",
+      "Accuracy (%)": 65.0,
+      "Avg Tokens": 1020.5,
+      "Avg Latency (s)": 21.32,
+      "Token Efficiency Score (TES)": 63.7
+    },
+    {
+      "Method": "Best-of-2 (T=0.6)",
+      "Accuracy (%)": 60.0,
+      "Avg Tokens": 2367.1,
+      "Avg Latency (s)": 49.57,
+      "Token Efficiency Score (TES)": 25.35
+    },
+    {
+      "Method": "Passive Early-Exit (Wei et al. 2025)",
+      "Accuracy (%)": 5.0,
+      "Avg Tokens": 187.2,
+      "Avg Latency (s)": 3.72,
+      "Token Efficiency Score (TES)": 26.72
+    },
+    {
+      "Method": "Tri-Regime DESPIN (Ours)",
+      "Accuracy (%)": 65.0,
+      "Avg Tokens": 1004.2,
+      "Avg Latency (s)": 20.70,
+      "Token Efficiency Score (TES)": 64.72
+    }
+  ]
+}

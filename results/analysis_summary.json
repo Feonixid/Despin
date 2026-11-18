@@ -1,0 +1,227 @@
+{
+  "n": 60,
+  "methods": {
+    "greedy": {
+      "name": "Greedy ($T{=}0$)",
+      "short": "Greedy",
+      "correct": 36,
+      "acc": 60.0,
+      "ci_lo": 47.36605339369845,
+      "ci_hi": 71.43050954561699,
+      "math_correct": 14,
+      "gsm_correct": 22,
+      "avg_final_tokens": 1148.5,
+      "avg_total_tokens": 1148.5,
+      "tokens_per_correct": 1914.1666666666667,
+      "cap_hits": 19,
+      "correct_and_capped": 4,
+      "tes_final": 52.242054854157594,
+      "tes_total": 52.242054854157594
+    },
+    "sampling": {
+      "name": "Temperature sampling ($T{=}0.6$)",
+      "short": "Samp",
+      "correct": 37,
+      "acc": 61.666666666666664,
+      "ci_lo": 49.01759572481935,
+      "ci_hi": 72.91172770438202,
+      "math_correct": 13,
+      "gsm_correct": 24,
+      "avg_final_tokens": 1194.9333333333334,
+      "avg_total_tokens": 1194.9333333333334,
+      "tokens_per_correct": 1937.7297297297298,
+      "cap_hits": 21,
+      "correct_and_capped": 5,
+      "tes_final": 51.606784199955364,
+      "tes_total": 51.606784199955364
+    },
+    "repetition_penalty": {
+      "name": "Repetition penalty ($\\theta{=}1.15$)",
+      "short": "Rep",
+      "correct": 34,
+      "acc": 56.666666666666664,
+      "ci_lo": 44.10343867991941,
+      "ci_hi": 68.42760327962422,
+      "math_correct": 15,
+      "gsm_correct": 19,
+      "avg_final_tokens": 1198.8,
+      "avg_total_tokens": 1198.8,
+      "tokens_per_correct": 2115.529411764706,
+      "cap_hits": 20,
+      "correct_and_capped": 6,
+      "tes_final": 47.26949171393616,
+      "tes_total": 47.26949171393616
+    },
+    "passive_early_exit": {
+      "name": "Detector-triggered early exit",
+      "short": "Early",
+      "correct": 7,
+      "acc": 11.666666666666666,
+      "ci_lo": 5.7677206086183626,
+      "ci_hi": 22.178788124005724,
+      "math_correct": 2,
+      "gsm_correct": 5,
+      "avg_final_tokens": 228.76666666666668,
+      "avg_total_tokens": 228.76666666666668,
+      "tokens_per_correct": 1960.857142857143,
+      "cap_hits": 0,
+      "correct_and_capped": 0,
+      "tes_final": 50.99810578464228,
+      "tes_total": 50.99810578464228
+    },
+    "despin": {
+      "name": "DESPIN (as implemented)",
+      "short": "Despin",
+      "correct": 40,
+      "acc": 66.66666666666667,
+      "ci_lo": 54.05686635056332,
+      "ci_hi": 77.27073854829577,
+      "math_correct": 18,
+      "gsm_correct": 22,
+      "avg_final_tokens": 1120.45,
+      "avg_total_tokens": 1188.9333333333334,
+      "tokens_per_correct": 1783.4,
+      "cap_hits": 16,
+      "correct_and_capped": 5,
+      "tes_final": 59.499903312657125,
+      "tes_total": 56.072670180554
+    }
+  },
+  "mcnemar": {
+    "sampling_vs_greedy": {
+      "only_method": 3,
+      "only_greedy": 2,
+      "p": 1.0
+    },
+    "repetition_penalty_vs_greedy": {
+      "only_method": 4,
+      "only_greedy": 6,
+      "p": 0.75390625
+    },
+    "passive_early_exit_vs_greedy": {
+      "only_method": 1,
+      "only_greedy": 30,
+      "p": 2.9802322387695312e-08
+    },
+    "despin_vs_greedy": {
+      "only_method": 4,
+      "only_greedy": 0,
+      "p": 0.125
+    },
+    "despin_vs_sampling": {
+      "only_despin": 6,
+      "only_other": 3,
+      "p": 0.5078125
+    },
+    "despin_vs_repetition_penalty": {
+      "only_despin": 9,
+      "only_other": 3,
+      "p": 0.14599609375
+    }
+  },
+  "rescues": [
+    {
+      "id": "math500_1",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "greedy_tokens": 2048,
+      "despin_tokens": 2048,
+      "pruned": 143,
+      "capped": true
+    },
+    {
+      "id": "math500_10",
+      "subject": "Number Theory",
+      "level": 3,
+      "greedy_tokens": 2048,
+      "despin_tokens": 2048,
+      "pruned": 95,
+      "capped": true
+    },
+    {
+      "id": "math500_26",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "greedy_tokens": 2048,
+      "despin_tokens": 2048,
+      "pruned": 112,
+      "capped": true
+    },
+    {
+      "id": "math500_28",
+      "subject": "Precalculus",
+      "level": 2,
+      "greedy_tokens": 2048,
+      "despin_tokens": 1798,
+      "pruned": 53,
+      "capped": false
+    }
+  ],
+  "regressions": 0,
+  "trig_any": 38,
+  "trig_math": 29,
+  "trig_gsm": 9,
+  "healthy_n": 32,
+  "healthy_trig": 18,
+  "greedy_capped_n": 19,
+  "greedy_capped_trig": 19,
+  "early_truncated": 56,
+  "early_median_len": 181.0,
+  "early_max_len": 598,
+  "first_trig_n": 38,
+  "first_trig_median": 127.5,
+  "first_trig_mean": 164.42105263157896,
+  "first_trig_early": 33,
+  "first_types": {
+    "V": 25,
+    "R": 13
+  },
+  "asd_problems": 37,
+  "asd_at_cap": 35,
+  "dup_problems": 8,
+  "dup_wasted": 1694,
+  "pruned_total": 4109,
+  "pruned_mean": 68.48333333333333,
+  "pruned_in_capped_despin": 2227,
+  "despin_capped_n": 16,
+  "noop_ids": [
+    "math500_2",
+    "math500_3",
+    "math500_5",
+    "gsm8k_13",
+    "gsm8k_15",
+    "gsm8k_24",
+    "gsm8k_26"
+  ],
+  "pgec_n": 8,
+  "pgec_deltas": [
+    -119,
+    -297,
+    -202,
+    290,
+    -153,
+    114,
+    -34,
+    -6
+  ],
+  "pgec_mean_delta": -50.875,
+  "pgec_shorter": 6,
+  "len_changed": 15,
+  "len_changed_trig": 15,
+  "subjects": {
+    "Precalculus": 6,
+    "Intermediate Algebra": 6,
+    "Algebra": 7,
+    "Number Theory": 4,
+    "Prealgebra": 3,
+    "Geometry": 2,
+    "Counting & Probability": 2
+  },
+  "levels": {
+    "1": 3,
+    "2": 7,
+    "3": 8,
+    "4": 2,
+    "5": 10
+  }
+}
